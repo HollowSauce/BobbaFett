@@ -11,6 +11,8 @@ public class TaskAssignmentDatabase {
 
 	public TaskAssignmentDatabase(){
 	database = new DBConnection();		// In constructor! Bad!
+		
+	//IF DOWNLOADING CHANGE THIS TO THE FILE LOCATION OF THE AssesmentTASKS.db FILE!!!
 	database.Connect("C:\\Users\\bauch\\Desktop\\Year 2\\Software_engineering\\AssesmentTASKS.db");
 	}
 	
